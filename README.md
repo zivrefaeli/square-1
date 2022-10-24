@@ -7,6 +7,7 @@ By displaying the following cube at the console,
 ![square-1](/assets/model.jpeg)
 
 <i>The output is</i>
+
 ```
        {Yellow, Orange} / {Yellow, Green, Orange}
 {Yellow, Orange, Blue} / {Yellow, Green}
@@ -23,9 +24,22 @@ By displaying the following cube at the console,
 
 (Image taken from [Walmart](https://i5.walmartimages.com/asr/cf69bda5-e90f-4508-bb01-165ccb8c7fac.9214a75dc2105517d8beeb2d02ef2d6d.jpeg))
 
+## Installation
+
+- Clone this repository
+- Compile the source code
+- Run the executable file
+
+```sh
+git clone https://github.com/zivrefaeli/square-1
+cd square-1/
+gcc app.c -o app.exe
+./app.exe
+```
+
 ## Usage
 
-There are 3 main methods to use in this project
+There are three main methods for the cube functionality in this project
 ```c
 void print_cube(Cube *cube);
 

@@ -1,5 +1,7 @@
-# Square-1 Project
-A special variant of Rubik's Cube, built in the <b>C</b> language.
+# Square-1
+The special variant of Rubik's Cube, Square-1, built in the <b>C</b> language.
+
+The data strutcure functions like a real cube and can be viewed via console.
 
 ## Demo
 By displaying the following cube at the console,

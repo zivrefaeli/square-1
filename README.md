@@ -1,11 +1,12 @@
 # Square-1
-A special variant of Rubik's Cube, built in C
+A special variant of Rubik's Cube, built in the <b>C</b> language.
 
 ## Demo
-By displaying the following cube at the console
+By displaying the following cube at the console,
+
 ![square-1](/assets/model.jpeg)
 
-The result is
+<i>The output is</i>
 ```
        {Yellow, Orange} / {Yellow, Green, Orange}
 {Yellow, Orange, Blue} / {Yellow, Green}
@@ -20,7 +21,7 @@ The result is
        {White, Orange} \ {White, Orange, Green}
 ```
 
-(Image was taken from [Walmart](https://i5.walmartimages.com/asr/cf69bda5-e90f-4508-bb01-165ccb8c7fac.9214a75dc2105517d8beeb2d02ef2d6d.jpeg))
+(Image taken from [Walmart](https://i5.walmartimages.com/asr/cf69bda5-e90f-4508-bb01-165ccb8c7fac.9214a75dc2105517d8beeb2d02ef2d6d.jpeg))
 
 ## Usage
 
@@ -35,7 +36,7 @@ void rotate(Cube *cube, int top, int bottom);
 
 <br />
 
-For example, to impelemnt the <b>[Parity Algorithem](https://www.kungfoomanchu.com/guides/andy-klise-square-1.pdf)</b> of Square-1
+For example, to implement the <b>[Parity Algorithm](https://www.kungfoomanchu.com/guides/andy-klise-square-1.pdf)</b> of Square-1:
 
 ```c
 int moves[][2] = {
@@ -55,4 +56,5 @@ print_cube(square1);
 ```
 
 ## Licence
-TODO
+
+sqaure-1 was created by Ziv Refaeli and released under the [MIT license](https://github.com/zivrefaeli/square-1/blob/master/LICENCE).

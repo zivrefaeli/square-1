@@ -1,4 +1,4 @@
-# Square-1
+# Square-1 Project
 A special variant of Rubik's Cube, built in the <b>C</b> language.
 
 ## Demo

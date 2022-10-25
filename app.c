@@ -10,13 +10,10 @@
 
 /*
 Goals:
-    -> Create the Square-1 cube using C language    | DONE
-    -> Add the ability to rotate/slice the cube     | DONE
-    -> Create random scramble generator             | -
-    -> Create Square-1 cube solver                  | -
-
-TODO:
-    - README.md file
+    -> Create the Square-1 cube data structure     | DONE
+    -> Add the cube functionality - rotate / slice | DONE
+    -> Create random scramble generator            | -
+    -> Create Square-1 cube solver                 | -
 */
 
 int main() {
